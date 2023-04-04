@@ -33,12 +33,12 @@ Console.WriteLine("Cibo preferito ma meno: " + CiboprefeMaMeno.ToString());
 if (lunghezzaArray % 2 == 0)
 {
     var mid = lunghezzaArray / 2;
-    Console.WriteLine("I cibi sono pari, dunque il cibo preferito di mezzo: " + cibiPrefe[mid]);
+    Console.WriteLine("I cibi sono pari, dunque il cibo preferito di mezzo è: " + cibiPrefe[mid]);
 }
 //Se l'array è dispari allora prendi i due elementi di mezzo e li metti in un array
 else
 {
     var mid = lunghezzaArray / 2;
-    Console.WriteLine("I cibi sono dispari, dunque cibi preferiti di mezzo: " + cibiPrefe[mid - 1] + " e " + cibiPrefe[mid]);
+    Console.WriteLine("I cibi sono dispari, dunque i cibi preferiti di mezzo sono: " + cibiPrefe[mid - 1] + " e " + cibiPrefe[mid]);
 }
 
