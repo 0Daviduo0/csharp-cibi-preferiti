@@ -35,7 +35,7 @@ if (lunghezzaArray % 2 == 0)
     var mid = lunghezzaArray / 2;
     Console.WriteLine("Cibo preferito di mezzo: " + cibiPrefe[mid]);
 }
-//Se l'array è pari allora prendi i due elementi di mezzo e li metti in un array
+//Se l'array è dispari allora prendi i due elementi di mezzo e li metti in un array
 else
 {
     var mid = lunghezzaArray / 2;
