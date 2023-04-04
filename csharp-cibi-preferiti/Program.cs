@@ -16,9 +16,13 @@ string[] cibiPrefe = new string[] {
 var lunghezzaArray = cibiPrefe.Length;
 Console.WriteLine("lunghezza classifica: " + lunghezzaArray);
 
+Console.WriteLine("--------------------------------------------------");
+
 //Classifica con numerazione
 for (int i = 0; i < cibiPrefe.Length; i++)
     Console.WriteLine(i+1 + " " + cibiPrefe[i]);
+
+Console.WriteLine("--------------------------------------------------");
 
 //Primo item array
 var CiboprefeInAssoluto = cibiPrefe.First();
